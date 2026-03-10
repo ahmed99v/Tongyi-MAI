@@ -1,5 +1,4 @@
 -f https://download.pytorch.org/whl/cu121
--f https://download.pytorch.org/whl/cu122
 torch
 diffusers
 

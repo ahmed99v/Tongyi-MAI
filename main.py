@@ -8,9 +8,9 @@ from diffusers import ZImagePipeline
 MODEL_NAME = "Tongyi-MAI/Z-Image-Turbo"
 DEFAULT_OUTPUT = "example.png"
 
-# --------------------------------------------------
-# Device helpers
-# --------------------------------------------------
+# -------------------------------------------------#
+# Device helpers                                   #
+# -------------------------------------------------#
 def get_device():
     if not torch.cuda.is_available():
         raise RuntimeError(
